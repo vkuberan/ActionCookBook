@@ -13,6 +13,6 @@ jobs:
       - name: Greep the user
         run: 
           echo "Hello world from ${{ github.actor }}."
-          echo "Current branch is '${{ github.ref }}.'
+          echo "Current branch is '${{ github.ref }}."
       - name: Checkout
         uses: actions/checkout@v4.1.0
