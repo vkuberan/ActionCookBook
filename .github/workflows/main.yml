@@ -14,5 +14,6 @@ jobs:
         run: 
           echo "Hello world from ${{ github.actor }}."
           echo "Current branch is '${{ github.ref }}."
+          echo "My Secret is '${{ secrets.MY_SECRET }}."
       - name: Checkout
         uses: actions/checkout@v4.1.0
